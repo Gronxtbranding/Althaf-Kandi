@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Althaf Kudiyama Kandi – Month 5 LinkedIn Performance Report | GroNXT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{--ink:#101828;--ink-soft:#2b3344;--paper:#FAF8F3;--paper-dim:#F0ECE1;--card:#FFFFFF;--line:#E4DFD2;--line-dark:#2A3245;--gold:#B8892F;--gold-soft:#E7CE9C;--teal:#1F6F63;--teal-light:#4C9C8D;--brick:#A85239;--muted:#6B7280;--radius-s:3px;--radius-m:6px;--maxw:1180px;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink);min-height:100vh;display:flex}
+.rail{position:fixed;top:0;left:0;bottom:0;width:220px;background:var(--ink);border-right:1px solid var(--line-dark);display:flex;flex-direction:column;z-index:100;overflow-y:auto;}
+.rail-brand{padding:28px 20px 20px;font-family:'Fraunces',serif;font-size:15px;color:#fff;line-height:1.4;border-bottom:1px solid var(--line-dark);}
+.rail-brand small{display:block;font-size:11px;color:var(--gold-soft);margin-top:4px;font-family:'Inter',sans-serif;letter-spacing:.04em;}
+.rail-nav{padding:16px 0;flex:1}
+.rail-nav a{display:block;padding:10px 20px;font-size:13px;color:#B7BECE;text-decoration:none;border-left:2px solid transparent;transition:all .15s;}
+.rail-nav a:hover,.rail-nav a.active{color:#fff;border-left-color:var(--gold);background:rgba(255,255,255,.04);}
+.rail-foot{padding:16px 20px;font-size:11px;color:#5a6378;border-top:1px solid var(--line-dark);}
+.main{margin-left:220px;flex:1;min-width:0}
+.hero{background:var(--ink);padding:64px 0 48px;background-image:radial-gradient(circle at 88% 12%,rgba(184,137,47,0.14),transparent 45%);border-bottom:1px solid var(--line-dark);}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px}
+.hero-kicker{font-size:13px;color:var(--gold-soft);font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+.hero h1{font-family:'Fraunces',serif;font-size:clamp(30px,4vw,44px);color:#fff;font-weight:700;line-height:1.15;max-width:18ch;margin-bottom:14px}
+.hero h1 span{font-weight:300}
+.hero-sub{font-size:16px;color:#B7BECE;max-width:62ch;line-height:1.6;margin-bottom:24px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:20px 36px;margin-bottom:36px}
+.hero-meta div{font-size:13px;color:#8892A4}
+.hero-meta b{color:#D0D7E3;font-weight:600}
+.kpi-strip{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line-dark);padding-top:28px;gap:24px;}
+.kpi-num{font-family:'Fraunces',serif;font-size:34px;color:#fff;line-height:1;margin-bottom:6px}
+.kpi-num span{font-size:17px;color:var(--gold-soft);font-weight:400}
+.kpi-label{font-size:12px;color:#8892A4;line-height:1.4}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+section:last-child{border-bottom:none}
+.section-head{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:8px}
+.section-num{font-family:'Fraunces',serif;font-size:13px;color:var(--gold);font-weight:400;letter-spacing:.04em;margin-bottom:4px}
+.section-head h2{font-family:'Fraunces',serif;font-size:26px;font-weight:600;color:var(--ink);line-height:1.2}
+.section-intro{max-width:70ch;color:var(--ink-soft);font-size:15px;line-height:1.65;margin-bottom:32px}
+.grid-2{display:grid;grid-template-columns:1.1fr 0.9fr;gap:28px;align-items:start}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.stat-mini-row{display:flex;flex-wrap:wrap;gap:20px;margin-bottom:4px}
+.stat-mini .n{font-family:'Fraunces',serif;font-size:22px;color:var(--teal);line-height:1}
+.stat-mini .l{font-size:11.5px;color:var(--muted);margin-top:3px}
+.stat-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:18px 20px}
+.stat-card .n{font-family:'Fraunces',serif;font-size:26px;line-height:1;margin-bottom:5px}
+.stat-card .n.teal{color:var(--teal)}.stat-card .n.gold{color:var(--gold)}
+.stat-card .l{font-size:12px;color:var(--muted)}
+.bullets{padding-left:18px;list-style:disc}
+.bullets li{font-size:14px;color:var(--ink-soft);line-height:1.6;margin-bottom:8px}
+.bullets li:last-child{margin-bottom:0}
+.bullets li b{color:var(--ink);font-weight:600}
+.table-scroll{overflow-x:auto;max-height:520px;overflow-y:auto;border:1px solid var(--line);border-radius:var(--radius-m)}
+.data-table{width:100%;border-collapse:collapse;font-size:13.5px}
+.data-table thead tr{background:var(--paper-dim);position:sticky;top:0;z-index:2}
+.data-table th{padding:10px 14px;text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600;border-bottom:1px solid var(--line)}
+.data-table td{padding:10px 14px;border-bottom:1px solid var(--line);color:var(--ink-soft)}
+.data-table tbody tr:last-child td{border-bottom:none}
+.data-table tbody tr:hover{background:var(--paper-dim)}
+.tabbar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.tabbar button{padding:6px 14px;font-size:13px;border-radius:20px;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink-soft);font-family:'Inter',sans-serif;transition:all .15s;}
+.tabbar button:hover{border-color:var(--ink);color:var(--ink)}
+.tabbar button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.people-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:20px}
+.notable-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:14px 16px;display:flex;align-items:center;gap:12px;}
+.notable-avatar{width:38px;height:38px;border-radius:50%;background:var(--teal);color:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;flex-shrink:0;}
+.notable-name{font-size:13.5px;font-weight:600;color:var(--ink);margin-bottom:2px}
+.notable-role{font-size:12px;color:var(--muted);line-height:1.3}
+.notable-company{font-size:12px;color:var(--teal);font-weight:500}
+.funnel{display:flex;flex-direction:column;gap:10px}
+.funnel-step{display:grid;grid-template-columns:160px 1fr 70px;align-items:center;gap:12px;}
+.funnel-label{font-size:13px;color:var(--ink-soft);font-weight:500}
+.funnel-bar-bg{background:var(--paper-dim);border-radius:3px;height:10px;overflow:hidden}
+.funnel-bar-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--teal),var(--teal-light))}
+.funnel-val{font-family:'Fraunces',serif;font-size:16px;color:var(--ink);text-align:right}
+.company-bar-row{display:flex;align-items:center;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}
+.company-bar-row:last-child{border-bottom:none}
+.company-bar-label{font-size:13px;color:var(--ink-soft);font-weight:500;width:200px;flex-shrink:0}
+.company-bar-bg{flex:1;background:var(--paper-dim);border-radius:3px;height:8px;overflow:hidden}
+.company-bar-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--teal),var(--teal-light))}
+.company-bar-val{font-family:'Fraunces',serif;font-size:15px;color:var(--ink);width:36px;text-align:right;flex-shrink:0}
+.outcome-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:20px 22px;border-left:4px solid var(--teal);margin-bottom:16px;}
+.outcome-card:last-child{margin-bottom:0}
+.outcome-type{font-size:12px;color:var(--teal);font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.outcome-name{font-size:17px;font-weight:700;color:var(--ink);margin-bottom:2px}
+.outcome-role{font-size:13px;color:var(--muted);margin-bottom:4px}
+.outcome-co{font-size:13px;color:var(--teal);font-weight:500;margin-bottom:10px}
+.outcome-detail{font-size:13.5px;color:var(--ink-soft);line-height:1.6}
+.chart-wrap{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:20px;}
+.chart-title{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:14px;font-weight:600}
+.link-name{color:var(--teal);font-weight:600;text-decoration:none;}
+.link-name:hover{text-decoration:underline;}
+@media(max-width:900px){
+  .rail{display:none}.main{margin-left:0}
+  .grid-2,.grid-4{grid-template-columns:1fr}
+  .kpi-strip{grid-template-columns:repeat(2,1fr)}
+  .people-grid{grid-template-columns:1fr}
+}
+
+</style>
+</head>
+<body>
+
+<div class="rail">
+  <div class="rail-brand">
+    <img src="data:image/png;base64,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" alt="GroNXT" style="height:20px;width:auto;display:block;margin-bottom:11px;">
+    LinkedIn Performance Report<small>Month 5</small>
+  </div>
+  <div class="rail-nav" id="railNav">
+    <a href="#overview" class="active">Overview</a>
+    <a href="#content">Content Performance</a>
+    <a href="#network">Network Growth</a>
+    <a href="#outcomes">Inbound Outcomes</a>
+  </div>
+  <div class="rail-foot">Prepared by GroNXT</div>
+</div>
+
+<div class="main">
+
+<div class="hero" id="overview">
+  <div class="wrap">
+    <div class="hero-kicker">GroNXT &mdash; LinkedIn Performance Report</div>
+    <h1>Althaf Kudiyama Kandi<br><span style="font-weight:300;">Month 5</span></h1>
+    <p class="hero-sub">Posts 17–20 covering Month 5 of the GroNXT LinkedIn branding programme, targeting senior professionals across Meta, Google, Amazon, Microsoft, SAP, Uber, LinkedIn, Intel, Mastercard, PayPal, and Cyient. 1,031 connection requests sent, 343 accepted, and 1 inbound outcome received.</p>
+    <div class="hero-meta">
+      <div><b>Reporting Period</b> Month 5</div>
+      <div><b>Posts Published</b> 4 (Posts 17–20)</div>
+      <div><b>Programme</b> LinkedIn Branding &amp; Networking</div>
+      <div><b>Prepared by</b> GroNXT</div>
+    </div>
+    <div class="kpi-strip" style="grid-template-columns:repeat(5,1fr);">
+      <div class="kpi"><div class="kpi-num">2,856</div><div class="kpi-label">Total Impressions</div></div>
+      <div class="kpi"><div class="kpi-num">70</div><div class="kpi-label">Total Engagement<br><small style="font-size:10px;color:#6b7488;">(Likes + Comments)</small></div></div>
+      <div class="kpi"><div class="kpi-num">1,031</div><div class="kpi-label">Connection Requests Sent</div></div>
+      <div class="kpi"><div class="kpi-num">343 <span>(33.3%)</span></div><div class="kpi-label">Connections Accepted</div></div>
+      <div class="kpi"><div class="kpi-num">1</div><div class="kpi-label">Inbound Outcomes</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- 01 CONTENT -->
+<section id="content"><div class="wrap">
+  <div class="section-head"><div><div class="section-num">01 &mdash; Content Performance</div><h2>Post Metrics</h2></div></div>
+  <p class="section-intro">4 posts published in Month 5 (Posts 17–20). Post 17 and Post 20 each crossed 1,000 impressions, with Post 17 generating 19 total engagements. 70 total engagements across the month at an average engagement rate of 2.5%, with strong participation from technology leaders at Adobe, Microsoft, NVIDIA, Atlassian, and Databricks.</p>
+
+  <div class="grid-2" style="margin-bottom:28px;">
+    <div>
+      <div class="stat-mini-row">
+        <div class="stat-mini"><div class="n">2,856</div><div class="l">Total Impressions</div></div>
+        <div class="stat-mini"><div class="n">64</div><div class="l">Total Likes</div></div>
+        <div class="stat-mini"><div class="n">6</div><div class="l">Comments</div></div>
+        <div class="stat-mini"><div class="n">2.5%</div><div class="l">Avg Engagement Rate</div></div>
+      </div>
+      <ul class="bullets" style="margin-top:20px;">
+        <li><b>Post 17</b> led on impressions with 1,006 views and 19 total engagements, drawing likes from Directors at Morgan Stanley, Engineering Managers at Microsoft, and a Strategy &amp; Consulting leader at Lakshman Hariharan.</li>
+        <li><b>Post 20</b> matched Post 17 on reach with 1,003 impressions, attracting engagement from a Fractional Chief Data &amp; AI Officer, a Founder at Data Alchemist, a Solutions Architect at Nissan, and an Engineering Manager in AI/ML.</li>
+        <li><b>Post 19</b> generated 22 likes — the highest like count of the month — with engagement from a VP at P C H R Vara Prasad S's organisation, Principal Architect at Adobe, and a Business Development Manager across healthcare and international trade.</li>
+        <li>Recurring engagement across posts from <b>Krishnaji Singh</b> (Global Consulting Leader), <b>Lucy Serrano-Leets</b> (Growth &amp; Transformation Strategist), <b>AFZAL N</b> (Managing Partner), and <b>Shaffi Mohammed</b> (COO, Real Estate) signals a growing senior audience.</li>
+      </ul>
+    </div>
+    <div class="chart-wrap">
+      <div class="chart-title">Impressions by Post</div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" style="width:100%;height:220px;font-family:Inter,sans-serif;">
+<line x1="44" y1="188.0" x2="508" y2="188.0" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="192.0" text-anchor="end" font-size="10" fill="#6B7280">0.0</text>
+<line x1="44" y1="143.5" x2="508" y2="143.5" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="147.5" text-anchor="end" font-size="10" fill="#6B7280">500</text>
+<line x1="44" y1="99.0" x2="508" y2="99.0" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="103.0" text-anchor="end" font-size="10" fill="#6B7280">1000</text>
+<line x1="44" y1="54.5" x2="508" y2="54.5" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="58.5" text-anchor="end" font-size="10" fill="#6B7280">1500</text>
+<line x1="44" y1="10.0" x2="508" y2="10.0" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="14.0" text-anchor="end" font-size="10" fill="#6B7280">2000</text>
+<rect x="48.0" y="98.5" width="108.0" height="89.5" fill="#1F6F63" rx="3"/>
+<text x="102.0" y="95.5" text-anchor="middle" font-size="9" fill="#2b3344">1,006</text>
+<text x="102.0" y="204" text-anchor="middle" font-size="10" fill="#6B7280">Post 17</text>
+<rect x="164.0" y="154.0" width="108.0" height="34.0" fill="#1F6F63" rx="3"/>
+<text x="218.0" y="151.0" text-anchor="middle" font-size="9" fill="#2b3344">382</text>
+<text x="218.0" y="204" text-anchor="middle" font-size="10" fill="#6B7280">Post 18</text>
+<rect x="280.0" y="146.6" width="108.0" height="41.4" fill="#1F6F63" rx="3"/>
+<text x="334.0" y="143.6" text-anchor="middle" font-size="9" fill="#2b3344">465</text>
+<text x="334.0" y="204" text-anchor="middle" font-size="10" fill="#6B7280">Post 19</text>
+<rect x="396.0" y="98.7" width="108.0" height="89.3" fill="#1F6F63" rx="3"/>
+<text x="450.0" y="95.7" text-anchor="middle" font-size="9" fill="#2b3344">1,003</text>
+<text x="450.0" y="204" text-anchor="middle" font-size="10" fill="#6B7280">Post 20</text>
+</svg>
+    </div>
+  </div>
+
+  <div class="grid-2" style="margin-bottom:32px;">
+    <div class="chart-wrap">
+      <div class="chart-title">Engagement Breakdown (Likes vs Comments)</div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 240" style="width:100%;height:240px;font-family:Inter,sans-serif;">
+<line x1="44" y1="208.0" x2="508" y2="208.0" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="212.0" text-anchor="end" font-size="10" fill="#6B7280">0.0</text>
+<line x1="44" y1="158.5" x2="508" y2="158.5" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="162.5" text-anchor="end" font-size="10" fill="#6B7280">7</text>
+<line x1="44" y1="109.0" x2="508" y2="109.0" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="113.0" text-anchor="end" font-size="10" fill="#6B7280">15</text>
+<line x1="44" y1="59.5" x2="508" y2="59.5" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="63.5" text-anchor="end" font-size="10" fill="#6B7280">22</text>
+<line x1="44" y1="10.0" x2="508" y2="10.0" stroke="#E4DFD2" stroke-width="1"/>
+<text x="40" y="14.0" text-anchor="end" font-size="10" fill="#6B7280">30</text>
+<rect x="48.0" y="102.4" width="52.0" height="105.6" fill="#B8892F" rx="3"/>
+<text x="74.0" y="99.4" text-anchor="middle" font-size="9" fill="#2b3344">16</text>
+<rect x="104.0" y="188.2" width="52.0" height="19.8" fill="#4C9C8D" rx="3"/>
+<text x="130.0" y="185.2" text-anchor="middle" font-size="9" fill="#2b3344">3</text>
+<text x="102.0" y="224" text-anchor="middle" font-size="10" fill="#6B7280">Post 17</text>
+<rect x="164.0" y="115.6" width="52.0" height="92.4" fill="#B8892F" rx="3"/>
+<text x="190.0" y="112.6" text-anchor="middle" font-size="9" fill="#2b3344">14</text>
+<rect x="220.0" y="208.0" width="52.0" height="0.0" fill="#4C9C8D" rx="3"/>
+<text x="218.0" y="224" text-anchor="middle" font-size="10" fill="#6B7280">Post 18</text>
+<rect x="280.0" y="62.8" width="52.0" height="145.2" fill="#B8892F" rx="3"/>
+<text x="306.0" y="59.8" text-anchor="middle" font-size="9" fill="#2b3344">22</text>
+<rect x="336.0" y="208.0" width="52.0" height="0.0" fill="#4C9C8D" rx="3"/>
+<text x="334.0" y="224" text-anchor="middle" font-size="10" fill="#6B7280">Post 19</text>
+<rect x="396.0" y="128.8" width="52.0" height="79.2" fill="#B8892F" rx="3"/>
+<text x="422.0" y="125.8" text-anchor="middle" font-size="9" fill="#2b3344">12</text>
+<rect x="452.0" y="188.2" width="52.0" height="19.8" fill="#4C9C8D" rx="3"/>
+<text x="478.0" y="185.2" text-anchor="middle" font-size="9" fill="#2b3344">3</text>
+<text x="450.0" y="224" text-anchor="middle" font-size="10" fill="#6B7280">Post 20</text>
+<rect x="44" y="226" width="10" height="10" fill="#B8892F" rx="2"/>
+<text x="58" y="235" font-size="10" fill="#6B7280">Likes</text>
+<rect x="100.5" y="226" width="10" height="10" fill="#4C9C8D" rx="2"/>
+<text x="114.5" y="235" font-size="10" fill="#6B7280">Comments</text>
+</svg>
+    </div>
+    <div>
+      <div class="table-scroll">
+        <table class="data-table">
+          <thead><tr><th>Post</th><th style="text-align:right;">Impressions</th><th style="text-align:right;">Likes</th><th style="text-align:right;">Comments</th><th style="text-align:right;">Total Eng.</th><th style="text-align:right;">Rate</th></tr></thead>
+          <tbody><tr><td style="font-weight:600;">Post 17</td><td style="text-align:right;">1,006</td><td style="text-align:right;">16</td><td style="text-align:right;">3</td><td style="text-align:right;">19</td><td style="text-align:right;">1.9%</td></tr>
+<tr><td style="font-weight:600;">Post 18</td><td style="text-align:right;">382</td><td style="text-align:right;">14</td><td style="text-align:right;">0</td><td style="text-align:right;">14</td><td style="text-align:right;">3.7%</td></tr>
+<tr><td style="font-weight:600;">Post 19</td><td style="text-align:right;">465</td><td style="text-align:right;">22</td><td style="text-align:right;">0</td><td style="text-align:right;">22</td><td style="text-align:right;">4.7%</td></tr>
+<tr><td style="font-weight:600;">Post 20</td><td style="text-align:right;">1,003</td><td style="text-align:right;">12</td><td style="text-align:right;">3</td><td style="text-align:right;">15</td><td style="text-align:right;">1.5%</td></tr>
+</tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-head" style="margin-top:40px;"><div><div class="section-num" style="font-size:12px;">People Engaged</div><h2 style="font-size:20px;">Who Engaged on Each Post</h2></div></div>
+  <p class="section-intro" style="margin-bottom:20px;">Named individuals who liked or commented on each post. Filter by post using the tabs below.</p>
+  <div class="tabbar"><button class="eng-tab active" id="etab-Post_17" onclick="showEngTab('Post_17')">Post 17</button>
+<button class="eng-tab " id="etab-Post_18" onclick="showEngTab('Post_18')">Post 18</button>
+<button class="eng-tab " id="etab-Post_19" onclick="showEngTab('Post_19')">Post 19</button>
+<button class="eng-tab " id="etab-Post_20" onclick="showEngTab('Post_20')">Post 20</button>
+</div>
+  <div class="eng-panel" id="epanel-Post_17" style=""><table class="data-table"><thead><tr><th>Name</th><th>Role / Company</th></tr></thead><tbody><tr><td style="font-weight:500;">Kamakshya Prusti</td><td style="color:var(--muted);">Growth Leader – Manufacturing Technologies, Digital &amp; Engineering Services</td></tr>
+<tr><td style="font-weight:500;">Sunny Kumar Chauhan</td><td style="color:var(--muted);">Co-founder, GroNXT – LinkedIn Branding &amp; Career Strategy</td></tr>
+<tr><td style="font-weight:500;">Krishnaji Singh</td><td style="color:var(--muted);">Global Consulting &amp; Professional Services Leader – P&amp;L, SaaS &amp; Enterprise Transformation</td></tr>
+<tr><td style="font-weight:500;">Prasad Nayak, PMP®</td><td style="color:var(--muted);">Global People Business Partner – Org Design, Change Management &amp; M&amp;A Integration</td></tr>
+<tr><td style="font-weight:500;">Lucy Serrano-Leets</td><td style="color:var(--muted);">Growth &amp; Transformation Strategist</td></tr>
+<tr><td style="font-weight:500;">Deepthi A</td><td style="color:var(--muted);">B2B Product Management – Enterprise AI &amp; SaaS, Adobe</td></tr>
+<tr><td style="font-weight:500;">Shovan Bhattacharya</td><td style="color:var(--muted);">Executive Director, Morgan Stanley</td></tr>
+<tr><td style="font-weight:500;">Sunil AK</td><td style="color:var(--muted);">Multi-Solutions Architect</td></tr>
+<tr><td style="font-weight:500;">Bal Mukund</td><td style="color:var(--muted);">Technical Architect, Adobe – MarTech &amp; AI Solutions</td></tr>
+<tr><td style="font-weight:500;">Lakshman Hariharan</td><td style="color:var(--muted);">Strategy &amp; Business Consulting – Digital Transformation &amp; Growth Strategy</td></tr>
+<tr><td style="font-weight:500;">Pranav Gupta</td><td style="color:var(--muted);">Software Engineering Manager, Microsoft</td></tr>
+</tbody></table></div>
+<div class="eng-panel" id="epanel-Post_18" style="display:none;"><table class="data-table"><thead><tr><th>Name</th><th>Role / Company</th></tr></thead><tbody><tr><td style="font-weight:500;">Prasanth Nair, SPHR</td><td style="color:var(--muted);">HR Strategy &amp; Transformation Leader – Operating Model, Rewards &amp; Governance</td></tr>
+<tr><td style="font-weight:500;">Sunny Kumar Chauhan</td><td style="color:var(--muted);">Co-founder, GroNXT – LinkedIn Branding &amp; Career Strategy</td></tr>
+<tr><td style="font-weight:500;">Krishnaji Singh</td><td style="color:var(--muted);">Global Consulting &amp; Professional Services Leader – P&amp;L, SaaS &amp; Enterprise Transformation</td></tr>
+<tr><td style="font-weight:500;">Shaffi Mohammed</td><td style="color:var(--muted);">COO – Real Estate Business Leader, Strategic Growth &amp; P&amp;L</td></tr>
+<tr><td style="font-weight:500;">Shashank Garg</td><td style="color:var(--muted);">Group Product Manager, Adobe</td></tr>
+<tr><td style="font-weight:500;">AFZAL N</td><td style="color:var(--muted);">Managing Partner, A. N Business Associates</td></tr>
+<tr><td style="font-weight:500;">jeevesh fuloria</td><td style="color:var(--muted);">Senior Lead, Engineering – GlobalLogic</td></tr>
+<tr><td style="font-weight:500;">Rahul Dewangan</td><td style="color:var(--muted);">Lead Data Engineer – Data &amp; Analytics</td></tr>
+</tbody></table></div>
+<div class="eng-panel" id="epanel-Post_19" style="display:none;"><table class="data-table"><thead><tr><th>Name</th><th>Role / Company</th></tr></thead><tbody><tr><td style="font-weight:500;">Manoj L</td><td style="color:var(--muted);">Customer Experience Leader</td></tr>
+<tr><td style="font-weight:500;">Manjeet Singh Nagi</td><td style="color:var(--muted);">Technology Leadership – AWS Cloud, Data Engineering, Agentic AI &amp; Product Consulting</td></tr>
+<tr><td style="font-weight:500;">Sagin Paul</td><td style="color:var(--muted);">Senior Data Architect, Adobe</td></tr>
+<tr><td style="font-weight:500;">Aleksey Odesskiy</td><td style="color:var(--muted);">Data Analytics &amp; Business Intelligence Architect</td></tr>
+<tr><td style="font-weight:500;">Mohammed Zeeshan</td><td style="color:var(--muted);">Enterprise Manager – Business Development &amp; Key Accounts, ICT &amp; Projects</td></tr>
+<tr><td style="font-weight:500;">Premchand Arangil</td><td style="color:var(--muted);">Operations &amp; Business Development Manager – Healthcare, Nutraceuticals &amp; International Trade</td></tr>
+<tr><td style="font-weight:500;">Krishnaji Singh</td><td style="color:var(--muted);">Global Consulting &amp; Professional Services Leader – P&amp;L, SaaS &amp; Enterprise Transformation</td></tr>
+<tr><td style="font-weight:500;">Debasish Majumdar</td><td style="color:var(--muted);">Business, Technology &amp; Consulting Delivery Executive Leader – Digital, Cloud, Data &amp; Analytics</td></tr>
+<tr><td style="font-weight:500;">Lucy Serrano-Leets</td><td style="color:var(--muted);">Growth &amp; Transformation Strategist</td></tr>
+<tr><td style="font-weight:500;">AFZAL N</td><td style="color:var(--muted);">Managing Partner, A. N Business Associates</td></tr>
+<tr><td style="font-weight:500;">Rithwik Srinivasan</td><td style="color:var(--muted);">Delivery, Portfolio &amp; Program Management – Adobe</td></tr>
+<tr><td style="font-weight:500;">Shaffi Mohammed</td><td style="color:var(--muted);">COO – Real Estate Business Leader, Strategic Growth &amp; P&amp;L</td></tr>
+<tr><td style="font-weight:500;">Jeff Litsch, MBA</td><td style="color:var(--muted);">Certified Product Manager – SaaS &amp; Enterprise Platforms, Cross-Functional Leadership</td></tr>
+<tr><td style="font-weight:500;">Amardeep Kohli</td><td style="color:var(--muted);">Group Manager, Professional Services – Adobe</td></tr>
+<tr><td style="font-weight:500;">Revathi P</td><td style="color:var(--muted);">People &amp; Technology Leader – Adobe Marketing Automation, Analytics &amp; AI</td></tr>
+<tr><td style="font-weight:500;">Abhinao Shrivastava</td><td style="color:var(--muted);">Principal Architect, Adobe – AI-First Enterprise Architecture</td></tr>
+<tr><td style="font-weight:500;">P C H R Vara Prasad S</td><td style="color:var(--muted);">VP – Engineering, Mission-Critical Platforms &amp; Large Engineering Organizations</td></tr>
+</tbody></table></div>
+<div class="eng-panel" id="epanel-Post_20" style="display:none;"><table class="data-table"><thead><tr><th>Name</th><th>Role / Company</th></tr></thead><tbody><tr><td style="font-weight:500;">Rajmohan Nair</td><td style="color:var(--muted);">Entrepreneur, Analytyx Solutions Private Limited</td></tr>
+<tr><td style="font-weight:500;">Shashwath Shenoy</td><td style="color:var(--muted);">Engineering Leader; Founder, Data Alchemist – Data Career Mentor</td></tr>
+<tr><td style="font-weight:500;">Keshav Kuthiala</td><td style="color:var(--muted);">Fractional Chief Data &amp; AI Officer, Bryse Consulting</td></tr>
+<tr><td style="font-weight:500;">Deepthi A</td><td style="color:var(--muted);">B2B Product Management – Enterprise AI &amp; B2B SaaS, Adobe</td></tr>
+<tr><td style="font-weight:500;">Siddhartha Sanyal</td><td style="color:var(--muted);">Solutions Architect, Nissan Digital India LLP</td></tr>
+<tr><td style="font-weight:500;">Vivek Patle</td><td style="color:var(--muted);">Engineering Manager – AI/ML &amp; Data Quality Engineering</td></tr>
+<tr><td style="font-weight:500;">Dinesh J</td><td style="color:var(--muted);">Engineering Leader – Solution Architecture, Platform Modernization &amp; AI-Enabled Engineering</td></tr>
+</tbody></table></div>
+
+
+  <div style="margin-top:36px;">
+    <div class="section-num" style="font-size:12px;margin-bottom:6px;">Notable Engagers</div>
+    <div style="font-family:'Fraunces',serif;font-size:20px;font-weight:600;margin-bottom:8px;">Senior Profiles</div>
+    <p style="font-size:14px;color:var(--ink-soft);margin-bottom:16px;">A selection of the most senior individuals who engaged with Month 5 content.</p>
+    <div class="people-grid"><div class="notable-card"><div class="notable-avatar">KP</div><div class="notable-info"><div class="notable-name">Kamakshya Prusti</div><div class="notable-role">Growth Leader – Manufacturing Technologies</div><div class="notable-company">Digital &amp; Engineering Services</div></div></div>
+<div class="notable-card"><div class="notable-avatar">SC</div><div class="notable-info"><div class="notable-name">Sunny Kumar Chauhan</div><div class="notable-role">Co-founder</div><div class="notable-company">GroNXT – LinkedIn Branding &amp; Career Strategy</div></div></div>
+<div class="notable-card"><div class="notable-avatar">KS</div><div class="notable-info"><div class="notable-name">Krishnaji Singh</div><div class="notable-role">Global Consulting &amp; Professional Services Leader – P&amp;L</div><div class="notable-company">SaaS &amp; Enterprise Transformation</div></div></div>
+<div class="notable-card"><div class="notable-avatar">PP</div><div class="notable-info"><div class="notable-name">Prasad Nayak, PMP®</div><div class="notable-role">Global People Business Partner – Org Design</div><div class="notable-company">Change Management &amp; M&amp;A Integration</div></div></div>
+<div class="notable-card"><div class="notable-avatar">LS</div><div class="notable-info"><div class="notable-name">Lucy Serrano-Leets</div><div class="notable-role">Growth &amp; Transformation Strategist</div><div class="notable-company"></div></div></div>
+<div class="notable-card"><div class="notable-avatar">DA</div><div class="notable-info"><div class="notable-name">Deepthi A</div><div class="notable-role">B2B Product Management – Enterprise AI &amp; SaaS</div><div class="notable-company">Adobe</div></div></div>
+</div>
+  </div>
+</div></section>
+
+<!-- 02 NETWORK -->
+<section id="network"><div class="wrap">
+  <div class="section-head"><div><div class="section-num">02 &mdash; Network Growth</div><h2>Connection &amp; Outreach</h2></div></div>
+  <p class="section-intro">1,031 connection requests were sent in Month 5 to senior professionals across Amazon, L&amp;T Technology Services, SAP, Microsoft, Cyient, Uber, Mastercard, Meta, Tata Technologies, and PayPal — targeting CXOs, Directors, VPs, and Engineering Heads in tech, consulting, and manufacturing. 343 connections were accepted, a 33.3% acceptance rate.</p>
+
+  <div class="grid-2" style="margin-bottom:32px;">
+    <div>
+      <div class="funnel" style="margin-bottom:28px;">
+        <div class="funnel-step">
+          <div class="funnel-label">Requests Sent</div>
+          <div class="funnel-bar-bg"><div class="funnel-bar-fill" style="width:100%"></div></div>
+          <div class="funnel-val">1,031</div>
+        </div>
+        <div class="funnel-step">
+          <div class="funnel-label">Accepted</div>
+          <div class="funnel-bar-bg"><div class="funnel-bar-fill" style="width:33.3%"></div></div>
+          <div class="funnel-val">343</div>
+        </div>
+      </div>
+      <div class="grid-4">
+        <div class="stat-card"><div class="n teal">1,031</div><div class="l">Requests Sent</div></div>
+        <div class="stat-card"><div class="n teal">343</div><div class="l">Accepted</div></div>
+        <div class="stat-card"><div class="n gold">33.3%</div><div class="l">Acceptance Rate</div></div>
+        <div class="stat-card"><div class="n">1</div><div class="l">Outcomes</div></div>
+      </div>
+    </div>
+    <div class="chart-wrap">
+      <div class="chart-title">Requests Sent vs Accepted</div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 90" style="width:100%;height:90px;font-family:Inter,sans-serif;">
+<text x="74" y="29.5" text-anchor="end" font-size="11" fill="#2b3344" font-weight="500">Sent</text>
+<rect x="80" y="10.0" width="390" height="31.0" fill="#F0ECE1" rx="3"/>
+<rect x="80" y="10.0" width="390.0" height="31.0" fill="rgba(31,111,99,0.35)" rx="3"/>
+<text x="476" y="29.5" font-size="12" fill="#101828" font-family="Georgia,serif" font-weight="600">1,031</text>
+<text x="74" y="68.5" text-anchor="end" font-size="11" fill="#2b3344" font-weight="500">Accepted</text>
+<rect x="80" y="49.0" width="390" height="31.0" fill="#F0ECE1" rx="3"/>
+<rect x="80" y="49.0" width="129.7" height="31.0" fill="#1F6F63" rx="3"/>
+<text x="476" y="68.5" font-size="12" fill="#101828" font-family="Georgia,serif" font-weight="600">343</text>
+</svg>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:16px;color:var(--ink);">Outreach by Company (Top 10 — Accepted)</div>
+      <div><div class="company-bar-row"><div class="company-bar-label">Amazon</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:100%"></div></div><div class="company-bar-val">40</div></div>
+<div class="company-bar-row"><div class="company-bar-label">L&amp;T Technology Services</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:70%"></div></div><div class="company-bar-val">28</div></div>
+<div class="company-bar-row"><div class="company-bar-label">SAP</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:68%"></div></div><div class="company-bar-val">27</div></div>
+<div class="company-bar-row"><div class="company-bar-label">Microsoft</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:65%"></div></div><div class="company-bar-val">26</div></div>
+<div class="company-bar-row"><div class="company-bar-label">Cyient</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:60%"></div></div><div class="company-bar-val">24</div></div>
+<div class="company-bar-row"><div class="company-bar-label">Uber</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:50%"></div></div><div class="company-bar-val">20</div></div>
+<div class="company-bar-row"><div class="company-bar-label">Mastercard</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:35%"></div></div><div class="company-bar-val">14</div></div>
+<div class="company-bar-row"><div class="company-bar-label">Meta</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:30%"></div></div><div class="company-bar-val">12</div></div>
+<div class="company-bar-row"><div class="company-bar-label">Tata Technologies</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:28%"></div></div><div class="company-bar-val">11</div></div>
+<div class="company-bar-row"><div class="company-bar-label">PayPal</div><div class="company-bar-bg"><div class="company-bar-fill" style="width:25%"></div></div><div class="company-bar-val">10</div></div>
+</div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:16px;color:var(--ink);">Accepted Connections</div>
+      <div class="table-scroll">
+        <table class="data-table">
+          <thead><tr><th>Name</th><th>Role</th><th>Company</th></tr></thead>
+          <tbody><tr><td><a href="https://www.linkedin.com/in/shankar-kumar-a013032b0/" target="_blank" class="link-name">Shankar Kumar</a></td><td style="color:var(--muted);">Human Resources Director</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/gurpreetkaur88/" target="_blank" class="link-name">Gurpreet Kaur</a></td><td style="color:var(--muted);">Chief Operation Officer</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/amitsaxena09/" target="_blank" class="link-name">Amit Saxena</a></td><td style="color:var(--muted);">Engineering Manager</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/madhusudanshekar/" target="_blank" class="link-name">Madhusudan Shekar</a></td><td style="color:var(--muted);">CTO</td><td style="color:var(--teal);font-weight:500;">Google</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/aditya-agarwal-27433646/" target="_blank" class="link-name">Aditya Agarwal</a></td><td style="color:var(--muted);">Regional CFO</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kapil-sharma-2b4006102/" target="_blank" class="link-name">Kapil Sharma</a></td><td style="color:var(--muted);">COO</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/akshatsoni2507/" target="_blank" class="link-name">Akshat Soni</a></td><td style="color:var(--muted);">Bikes Category Manager</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/prakhar-agarwal-98b099175/" target="_blank" class="link-name">Prakhar Agarwal</a></td><td style="color:var(--muted);">Software Engineer</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/dilkash-manghani-69300a1b/" target="_blank" class="link-name">Dilkash Manghani</a></td><td style="color:var(--muted);">Engineer</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/fateh-singh-sikarwar-a0aa02281/?skipRedirect=true" target="_blank" class="link-name">Fateh Singh Sikarwar</a></td><td style="color:var(--muted);">Software Engineer</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ayushanand689/" target="_blank" class="link-name">Ayush Anand</a></td><td style="color:var(--muted);">Sales Head-North &amp; East</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/badhautiyapriya/" target="_blank" class="link-name">Priya Badhautiya</a></td><td style="color:var(--muted);">Regional Operations Manager</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/neha-kapoor-38927a31/" target="_blank" class="link-name">Neha Kapoor</a></td><td style="color:var(--muted);">Head Strategic Initiatives</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ankit-barjatya-b37a46120/" target="_blank" class="link-name">Ankit Barjatya</a></td><td style="color:var(--muted);">Building ETS</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/mohanbn/" target="_blank" class="link-name">Mohan Nellore</a></td><td style="color:var(--muted);">Director of Engineering</td><td style="color:var(--teal);font-weight:500;">Linkedin</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/cshah/" target="_blank" class="link-name">Chetan Shah</a></td><td style="color:var(--muted);">CTO</td><td style="color:var(--teal);font-weight:500;">Databricks</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/axansh/" target="_blank" class="link-name">Axansh Sheth</a></td><td style="color:var(--muted);">Senior Engineering</td><td style="color:var(--teal);font-weight:500;">Databricks</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/chandanbansal/" target="_blank" class="link-name">Chandan bansal</a></td><td style="color:var(--muted);">Hiring Techlead &amp; L6, Engineering</td><td style="color:var(--teal);font-weight:500;">Databricks</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/alok-kumar-39398415/" target="_blank" class="link-name">Alok Kumar</a></td><td style="color:var(--muted);">Director Finance</td><td style="color:var(--teal);font-weight:500;">Walmart</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/cfavikasbhatnagar/" target="_blank" class="link-name">CFA Vikas Bhatnagar</a></td><td style="color:var(--muted);">Senior Manager II - Finance</td><td style="color:var(--teal);font-weight:500;">Walmart</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vijayaprasanna/" target="_blank" class="link-name">Vijaya Prasanna</a></td><td style="color:var(--muted);">Senior Director</td><td style="color:var(--teal);font-weight:500;">Walmart</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/dinesh-choudhary-8a759a142/" target="_blank" class="link-name">Dinesh Choudhary</a></td><td style="color:var(--muted);">Senior Software Engineer at Atlassian</td><td style="color:var(--teal);font-weight:500;">Atlassian</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/harshabilandani/" target="_blank" class="link-name">Harsha Bilandani</a></td><td style="color:var(--muted);">Building Atlassian&#x27;s brand in India</td><td style="color:var(--teal);font-weight:500;">Atlassian</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/avani-solanki-prabhakar-235b334/" target="_blank" class="link-name">Avani Solanki Prabhakar</a></td><td style="color:var(--muted);">Chief People and AI Enablement Officer</td><td style="color:var(--teal);font-weight:500;">Atlassian</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/prakeshnair/" target="_blank" class="link-name">Prakesh nair</a></td><td style="color:var(--muted);">Responsible AI &amp; Workforce Transformation Leader</td><td style="color:var(--teal);font-weight:500;">Atlassian</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/saurabhsaxenaintuit/" target="_blank" class="link-name">Saurabh Saxena</a></td><td style="color:var(--muted);">Intuit India Site Leader &amp; Senior Vice President</td><td style="color:var(--teal);font-weight:500;">Intuit</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/anandnavin/" target="_blank" class="link-name">Navin Anand</a></td><td style="color:var(--muted);">Director for Intuit Data Exchange (IDX)</td><td style="color:var(--teal);font-weight:500;">Intuit</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/suryamohang/" target="_blank" class="link-name">Surya Mohan Godavarthy</a></td><td style="color:var(--muted);">Engineering Leader</td><td style="color:var(--teal);font-weight:500;">Intuit</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shalini-mohan-87869644/" target="_blank" class="link-name">Shalini Mohan</a></td><td style="color:var(--muted);">Senior Recruiter</td><td style="color:var(--teal);font-weight:500;">Intuit</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/unniar/" target="_blank" class="link-name">Unnikrishnan A R</a></td><td style="color:var(--muted);">Head Startups - South Asia NVIDIA</td><td style="color:var(--teal);font-weight:500;">NVIDIA</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sundar-r-nagalingam-b5554857/" target="_blank" class="link-name">Sundar R Nagalingam</a></td><td style="color:var(--muted);">Senior Director - AI Consulting Partners at NVIDIA</td><td style="color:var(--teal);font-weight:500;">NVIDIA</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sa126/" target="_blank" class="link-name">Saurabh Aggarwal</a></td><td style="color:var(--muted);">Partner Solutions Architect</td><td style="color:var(--teal);font-weight:500;">NVIDIA</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shikha-pushpan-9037545b/" target="_blank" class="link-name">Shikha Pushpan</a></td><td style="color:var(--muted);">Head of Communications</td><td style="color:var(--teal);font-weight:500;">SAP Labs</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/subrayabhagwat/" target="_blank" class="link-name">Subraya Bhagwat</a></td><td style="color:var(--muted);">CFO at SAP Labs</td><td style="color:var(--teal);font-weight:500;">SAP Labs</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/srinathganesan/" target="_blank" class="link-name">CA. Srinath Ganesan</a></td><td style="color:var(--muted);">Digital CFO Advisor</td><td style="color:var(--teal);font-weight:500;">SAP Labs</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/harshit-goel-86434547/" target="_blank" class="link-name">Harshit Goel</a></td><td style="color:var(--muted);">Strategy and Operations</td><td style="color:var(--teal);font-weight:500;">SAP Labs</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sohinic/" target="_blank" class="link-name">Sohini Chakraborti</a></td><td style="color:var(--muted);">SAP Enterprise Cloud Services - COO Office</td><td style="color:var(--teal);font-weight:500;">SAP Labs</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/mkapoor0209/" target="_blank" class="link-name">Manish Kapoor</a></td><td style="color:var(--muted);">Finance Manager</td><td style="color:var(--teal);font-weight:500;">VMWare</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/aditya-singh-39512b178/" target="_blank" class="link-name">Aditya Singh</a></td><td style="color:var(--muted);">Chief operations officer at VMware</td><td style="color:var(--teal);font-weight:500;">VMWare</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/daniel-naveen-prabhu-295a081a/" target="_blank" class="link-name">Daniel Naveen Prabhu</a></td><td style="color:var(--muted);">Technical support</td><td style="color:var(--teal);font-weight:500;">VMWare</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/irshad-a-b1679a134/" target="_blank" class="link-name">Irshad A</a></td><td style="color:var(--muted);">Technical support</td><td style="color:var(--teal);font-weight:500;">VMWare</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/aditya--dutta/" target="_blank" class="link-name">Aditya Dutta</a></td><td style="color:var(--muted);">Technical support</td><td style="color:var(--teal);font-weight:500;">VMWare</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vikas-shitole-81750450/" target="_blank" class="link-name">Vikas Shitole</a></td><td style="color:var(--muted);">Sr Tech Lead (R&amp;D)</td><td style="color:var(--teal);font-weight:500;">VMWare</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rahul--jha/" target="_blank" class="link-name">Rahul Jha</a></td><td style="color:var(--muted);">Staff Solution Architect</td><td style="color:var(--teal);font-weight:500;">VMWare</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nileshsingh24/" target="_blank" class="link-name">Nilesh Singh</a></td><td style="color:var(--muted);">Software Engineer</td><td style="color:var(--teal);font-weight:500;">VMWare</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/anandbhaskardigitalblanket/" target="_blank" class="link-name">Anand Bhaskar</a></td><td style="color:var(--muted);">Managing Director</td><td style="color:var(--teal);font-weight:500;">Cisco</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/arun-shetty-5881017/" target="_blank" class="link-name">Arun Shetty</a></td><td style="color:var(--muted);">CTO &amp; Sr. Director</td><td style="color:var(--teal);font-weight:500;">Cisco</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/santhoshviswanathan/" target="_blank" class="link-name">Santhosh Viswanathan</a></td><td style="color:var(--muted);">Managing Director | Intel | APJ Region</td><td style="color:var(--teal);font-weight:500;">Intel</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sunilpp/" target="_blank" class="link-name">PP Sunil Acharya</a></td><td style="color:var(--muted);">CSP partner</td><td style="color:var(--teal);font-weight:500;">Intel</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/devyani-mehra-5003b354/" target="_blank" class="link-name">Devyani Mehra</a></td><td style="color:var(--muted);">Director</td><td style="color:var(--teal);font-weight:500;">Intel</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ruba-vignesh167/" target="_blank" class="link-name">Ruba Vignesh</a></td><td style="color:var(--muted);">Talent Acquisition Patner @ Intel</td><td style="color:var(--teal);font-weight:500;">Intel</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kareemsha/" target="_blank" class="link-name">Kareem Shaik</a></td><td style="color:var(--muted);">Intel Executive Recruiter</td><td style="color:var(--teal);font-weight:500;">Intel</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ankit-agarwal-1463984b/" target="_blank" class="link-name">Ankit Agarwal</a></td><td style="color:var(--muted);">CFO and Director</td><td style="color:var(--teal);font-weight:500;">Visa</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/abhishek-bhattacharjee-4629a915a/" target="_blank" class="link-name">Abhishek Bhattacharjee</a></td><td style="color:var(--muted);">HR professional at VISA</td><td style="color:var(--teal);font-weight:500;">Visa</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pawan-setty-a255298/" target="_blank" class="link-name">Pawan Setty</a></td><td style="color:var(--muted);">VP, Head of HR APAC</td><td style="color:var(--teal);font-weight:500;">Visa</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/abhinav-dasgupta-99229114/" target="_blank" class="link-name">Abhinav Dasgupta</a></td><td style="color:var(--muted);">Senior Director, Visa | Digital Payments, Consulting</td><td style="color:var(--teal);font-weight:500;">Visa</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/neaggarwal/" target="_blank" class="link-name">Neha Aggarwal</a></td><td style="color:var(--muted);">Lead Consumer Solutions, Visa India and South Asia</td><td style="color:var(--teal);font-weight:500;">Visa</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vineeta-bhatia-pro85/" target="_blank" class="link-name">Vineeta Bhatia</a></td><td style="color:var(--muted);">Senior Executive –</td><td style="color:var(--teal);font-weight:500;">Airbnb</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/udayan-deshpande/" target="_blank" class="link-name">Udayan Deshpande</a></td><td style="color:var(--muted);">Community Leader - Karnataka</td><td style="color:var(--teal);font-weight:500;">Airbnb</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/richa-sinha-956b1112/" target="_blank" class="link-name">Richa Sinha</a></td><td style="color:var(--muted);">Thinking and AI interventions</td><td style="color:var(--teal);font-weight:500;">Airbnb</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ashwinemmanuel" target="_blank" class="link-name">ASHWIN EMMANUEL</a></td><td style="color:var(--muted);">Principal Recruiter</td><td style="color:var(--teal);font-weight:500;">LinkedIn</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nanditha-menon-08" target="_blank" class="link-name">Nanditha Menon</a></td><td style="color:var(--muted);">Account Director - Talent Solutions</td><td style="color:var(--teal);font-weight:500;">LinkedIn</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sunil-kamath-57b66056" target="_blank" class="link-name">Sunil Kamath</a></td><td style="color:var(--muted);">Senior HR Business Partner - Engineering &amp; Delivery, Asia Pacific</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sviyer" target="_blank" class="link-name">Sriram Venkateswaran</a></td><td style="color:var(--muted);">Director of Engineering</td><td style="color:var(--teal);font-weight:500;">Google</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nitishjha" target="_blank" class="link-name">Nitish Jha</a></td><td style="color:var(--muted);">Head of Engineering</td><td style="color:var(--teal);font-weight:500;">Atlassian</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/santhosam" target="_blank" class="link-name">Charles Santhosam</a></td><td style="color:var(--muted);">Director, GPU SW</td><td style="color:var(--teal);font-weight:500;">NVIDIA</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shishirsathe" target="_blank" class="link-name">Shishir Sathe</a></td><td style="color:var(--muted);">Director of Engineering, Data Science / Head of GTM Data Science</td><td style="color:var(--teal);font-weight:500;">LinkedIn</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/karthikramachandra" target="_blank" class="link-name">Karthik Ramachandra</a></td><td style="color:var(--muted);">Partner Director of Engineering</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sundar-r-nagalingam-b5554857" target="_blank" class="link-name">Sundar R Nagalingam</a></td><td style="color:var(--muted);">Senior Director - AI Consulting Partners</td><td style="color:var(--teal);font-weight:500;">NVIDIA</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/mohanbn" target="_blank" class="link-name">Mohan Nellore</a></td><td style="color:var(--muted);">Director of Software Engineering</td><td style="color:var(--teal);font-weight:500;">LinkedIn</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/karthikvshankar" target="_blank" class="link-name">Karthik Shankar</a></td><td style="color:var(--muted);">Director, Systems Software</td><td style="color:var(--teal);font-weight:500;">NVIDIA</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/amrita-srivastava" target="_blank" class="link-name">Amrita Srivastava</a></td><td style="color:var(--muted);">Director Solution Engineering: Azure Cloud &amp; AI @ Microsoft | Leadership, Business Analysis</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/gurudutt-r-v-48a04910" target="_blank" class="link-name">Gurudutt R.V</a></td><td style="color:var(--muted);">Head of Engineering at Atlassian</td><td style="color:var(--teal);font-weight:500;">Atlassian</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/yashu-p-206968290" target="_blank" class="link-name">yashu p</a></td><td style="color:var(--muted);">Head of HR</td><td style="color:var(--teal);font-weight:500;">Google</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sinhaanupam65" target="_blank" class="link-name">Anupam Sinha</a></td><td style="color:var(--muted);">HR Business Partner, Cloud + AI</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kumari-sindhu-66b40456" target="_blank" class="link-name">Kumari Sindhu</a></td><td style="color:var(--muted);">Talent Partner</td><td style="color:var(--teal);font-weight:500;">NVIDIA</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ahana-tomar-6b174418" target="_blank" class="link-name">Ahana Tomar</a></td><td style="color:var(--muted);">Global HR Business Partner – Ad Sales</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nidhinagpal" target="_blank" class="link-name">Nidhi Nagpal</a></td><td style="color:var(--muted);">Senior Human Resources Business Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/arshgupta95" target="_blank" class="link-name">Arsh Gupta</a></td><td style="color:var(--muted);">Human Resources Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/saketha-somagani-4b3984a0" target="_blank" class="link-name">Saketha Somagani</a></td><td style="color:var(--muted);">Human Resources Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/devanshrohatgi" target="_blank" class="link-name">Devansh Rohatgi</a></td><td style="color:var(--muted);">Senior HR Business Partner Tech</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sauktika-panda-072a6a127" target="_blank" class="link-name">Sauktika Panda</a></td><td style="color:var(--muted);">Sr. HR Business Partner – AWS APJ Commercial</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/twinkle-nayak-42171b105" target="_blank" class="link-name">Twinkle Nayak</a></td><td style="color:var(--muted);">Talent Acquisition Partner – Leadership Hiring (Non-Tech)</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/karthik-r-1a723551" target="_blank" class="link-name">Karthik R</a></td><td style="color:var(--muted);">Senior Human Resources Business Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rachana-shah" target="_blank" class="link-name">Rachana S.</a></td><td style="color:var(--muted);">Global Talent Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/umang-srivastava-913a4a103" target="_blank" class="link-name">Umang Srivastava</a></td><td style="color:var(--muted);">Human Resources Business Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pulla-sai-prasad-558a42b8" target="_blank" class="link-name">Pulla Sai Prasad</a></td><td style="color:var(--muted);">Human Resources Business Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/naman-gupta-04675036" target="_blank" class="link-name">Naman Gupta</a></td><td style="color:var(--muted);">HR Business Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/k-swarasmita-senapati-90b8451b1" target="_blank" class="link-name">K Swarasmita Senapati</a></td><td style="color:var(--muted);">HR Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/jayalakshmi-mp-879591171" target="_blank" class="link-name">Jayalakshmi MP</a></td><td style="color:var(--muted);">HR Business Partner</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kanishka-seal" target="_blank" class="link-name">Kanishka Seal</a></td><td style="color:var(--muted);">HR Business Partner - One PXT (South)</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/radhikagrv" target="_blank" class="link-name">Radhika G</a></td><td style="color:var(--muted);">Human Resource Business Partner – Associate Level (US, India, Canada and APAC markets)</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/bhagya-a-a7b0ab152" target="_blank" class="link-name">Bhagya A</a></td><td style="color:var(--muted);">HR Manager</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/tanveer-wani-0a72b725" target="_blank" class="link-name">Tanveer Wani</a></td><td style="color:var(--muted);">Human Resources Specialist</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kangkan-pujari-53712513" target="_blank" class="link-name">Kangkan Pujari</a></td><td style="color:var(--muted);">Principal Employee &amp; Labor Relations – India</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sireesha-m-4148a0246/" target="_blank" class="link-name">Sireesha M</a></td><td style="color:var(--muted);">Human Resources Manager</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/yash-dixit-03205b370" target="_blank" class="link-name">Yash Dixit</a></td><td style="color:var(--muted);">Assistant Manager Human Resources</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sreenathvijayan" target="_blank" class="link-name">Sreenath VIJAYAN</a></td><td style="color:var(--muted);">Senior Manager Talent Acquisition</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kavitakurup" target="_blank" class="link-name">Kavita Kurup</a></td><td style="color:var(--muted);">Chief People Officer</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/suhelbhatia" target="_blank" class="link-name">Suhel Bhatia</a></td><td style="color:var(--muted);">Vice President, Human Resources</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ravindranathbarrey" target="_blank" class="link-name">Ravindranadh Barrey</a></td><td style="color:var(--muted);">Director Talent Acquisition - GCS Business Unit</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/umanageswararaog" target="_blank" class="link-name">Uma Nageswara Gupta Guggilam</a></td><td style="color:var(--muted);">Talent Acquisition Manager</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rajani-kant-sharma-3644a738" target="_blank" class="link-name">Rajani Kant Sharma</a></td><td style="color:var(--muted);">Sr Recruiter</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/arpit-tyagi-70628a78" target="_blank" class="link-name">ARPIT TYAGI</a></td><td style="color:var(--muted);">Senior Recruitment Specialist</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/preethikrishna" target="_blank" class="link-name">Preethi Krishna</a></td><td style="color:var(--muted);">Manager - HR</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services Limited</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/jayachitra-j-9aa30512" target="_blank" class="link-name">Jayachitra J</a></td><td style="color:var(--muted);">Manager - Talent Acquisition</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shitaljakkulwar" target="_blank" class="link-name">Shital Jakkulwar</a></td><td style="color:var(--muted);">Technical Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/bhavna-suryavanshi-shrivastav-762754b7" target="_blank" class="link-name">Bhavna Suryavanshi (Shrivastav)</a></td><td style="color:var(--muted);">Associate Manager</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/priyanka-bhalwankar-83664a56" target="_blank" class="link-name">Priyanka Bhalwankar</a></td><td style="color:var(--muted);">Talent Acquisition Manager</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vibinjoe" target="_blank" class="link-name">Vibin Joe</a></td><td style="color:var(--muted);">Senior Executive Talent Acquisition - Americas &amp; Canada</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/dr-perla" target="_blank" class="link-name">Dr. Srinivasa Rao Perla</a></td><td style="color:var(--muted);">Director Technical Training</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ananya-saha-7bb975b1" target="_blank" class="link-name">Ananya Saha</a></td><td style="color:var(--muted);">Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/aakriti-upaadhyaya-565468154" target="_blank" class="link-name">Aakriti Upaadhyaya</a></td><td style="color:var(--muted);">Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/mani-kandan-2825a6b7" target="_blank" class="link-name">Mani Kandan</a></td><td style="color:var(--muted);">Staffing Account Manager</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/syed-sibgath-8171b412" target="_blank" class="link-name">Syed Sibgath</a></td><td style="color:var(--muted);">Sr. Manager Talent Acquisition</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/reetamonica" target="_blank" class="link-name">Monica R</a></td><td style="color:var(--muted);">Senior Executive Talent Acquisition</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kavitha-guruprasad-3648a312a" target="_blank" class="link-name">Kavitha Guruprasad</a></td><td style="color:var(--muted);">Associate Manager</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/indra-kumar-m-83648ba4" target="_blank" class="link-name">Indra Kumar M</a></td><td style="color:var(--muted);">Senior Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/abhiraj-b-26166b42" target="_blank" class="link-name">Abhiraj B</a></td><td style="color:var(--muted);">Recruitment Specialist</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/agnes-dcruz-rajesh" target="_blank" class="link-name">Agnes D&#x27;Cruz Rajesh</a></td><td style="color:var(--muted);">Facilitator and Coach</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/gopal-krushna-das-154952269" target="_blank" class="link-name">Gopal Krushna Das</a></td><td style="color:var(--muted);">Training Manager</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rakesh-g-190758a4" target="_blank" class="link-name">Rakesh G</a></td><td style="color:var(--muted);">Senior Recruitment Specialist</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/chandana-mallappa-97694778" target="_blank" class="link-name">Chandana Mallappa</a></td><td style="color:var(--muted);">Human Resources Business Partner</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/arpitha-gowda-a7b514173" target="_blank" class="link-name">Arpitha Gowda</a></td><td style="color:var(--muted);">Senior Recruitment Specialist</td><td style="color:var(--teal);font-weight:500;">ALTEN India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/aarthy-gandhi-humanresource" target="_blank" class="link-name">Aarthy Gandhi</a></td><td style="color:var(--muted);">Talent Acquisition Executive</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/mithilesh-milind-dom-a49162232" target="_blank" class="link-name">Mithilesh Milind Dom</a></td><td style="color:var(--muted);">Executive</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sathiyaprabha-r-284704280" target="_blank" class="link-name">Sathiyaprabha R</a></td><td style="color:var(--muted);">Technical Recruiter</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sahana-kashyap-a1030199" target="_blank" class="link-name">Sahana Kashyap</a></td><td style="color:var(--muted);">Senior Talent Acquisition Consultant</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sai-charan-reddy-0a9125268" target="_blank" class="link-name">Sai Charan reddy</a></td><td style="color:var(--muted);">Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/naveenraj-palegar-tg-8b4b3724b" target="_blank" class="link-name">NaveenRaj Palegar TG</a></td><td style="color:var(--muted);">Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/01digvijaysingh" target="_blank" class="link-name">Digvijay Singh</a></td><td style="color:var(--muted);">Recruitment Consultant</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/arvind-kannan-044a35183" target="_blank" class="link-name">Arvind Kannan</a></td><td style="color:var(--muted);">HRIS Senior Analyst</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nagarjun-rajendran" target="_blank" class="link-name">Nagarjun Rajendran</a></td><td style="color:var(--muted);">Technical Lead - Sourcing and Value Management</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sandeep-m-8a183321a" target="_blank" class="link-name">Sandeep M</a></td><td style="color:var(--muted);">Technical Recruiter</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shweta-sutar-9022a0202" target="_blank" class="link-name">Shweta Sutar</a></td><td style="color:var(--muted);">Sr. IT Recruiter</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vikas-arrisetty-775886234" target="_blank" class="link-name">Vikas Arrisetty</a></td><td style="color:var(--muted);">Senior Human Resources Recruiter</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nithiyananthan-v-b0a1a7138" target="_blank" class="link-name">Nithiyananthan V</a></td><td style="color:var(--muted);">Consultant - Talent Acquisition</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nida-saher-2b4166220" target="_blank" class="link-name">Nida Saher</a></td><td style="color:var(--muted);">Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/meghna-marar-688589153" target="_blank" class="link-name">Meghna Marar</a></td><td style="color:var(--muted);">Sr. Associate - Talent Acquisition</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sindhu-au" target="_blank" class="link-name">Sindhu Malnad</a></td><td style="color:var(--muted);">Executive - HR Business Partner</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pavan-raj-n-701660295" target="_blank" class="link-name">Pavan Raj N</a></td><td style="color:var(--muted);">Recruiter - Talent Acquisition</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ankita-das-hris" target="_blank" class="link-name">Ankita Das</a></td><td style="color:var(--muted);">Human Resource - Employee Relations &amp; Compliance</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/varaprasad-k-734668205" target="_blank" class="link-name">Varaprasad K</a></td><td style="color:var(--muted);">Recruiter</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/saikumar-gunda-a17604178" target="_blank" class="link-name">Saikumar Gunda</a></td><td style="color:var(--muted);">Human Resources Specialist</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/srujana-s-197b43170" target="_blank" class="link-name">Srujana S</a></td><td style="color:var(--muted);">Senior Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vishakha-jha-3931b0289" target="_blank" class="link-name">Vishakha Jha</a></td><td style="color:var(--muted);">Senior Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">ALTEN India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vishakha-jha-3931b0289" target="_blank" class="link-name">Vishakha Jha</a></td><td style="color:var(--muted);">Senior Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">ALTEN India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/swathi-sr" target="_blank" class="link-name">Swathi S</a></td><td style="color:var(--muted);">Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sandeep-reddy-aa9549279" target="_blank" class="link-name">Sandeep Reddy</a></td><td style="color:var(--muted);">Talent Acquisition Consultant</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/manishkumar682" target="_blank" class="link-name">Manish Kumar</a></td><td style="color:var(--muted);">Not specified</td><td style="color:var(--teal);font-weight:500;">Not specified</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/adwaith-m-a49b84370" target="_blank" class="link-name">Adwaith M</a></td><td style="color:var(--muted);">Talent Acquisition</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/yanamadala-manikanta-47a311352" target="_blank" class="link-name">Yanamadala Manikanta</a></td><td style="color:var(--muted);">Human Resources Executive</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ambika-igve-622865209" target="_blank" class="link-name">Ambika Igve</a></td><td style="color:var(--muted);">Talent Acquisition Specialist</td><td style="color:var(--teal);font-weight:500;">ALTEN India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sayan-sarkar-7ilus" target="_blank" class="link-name">Sayan Sarkar</a></td><td style="color:var(--muted);">Talent Acquisition</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kokila-vishu-35a68052" target="_blank" class="link-name">Kokila Vishu</a></td><td style="color:var(--muted);">Senior Specialist TA</td><td style="color:var(--teal);font-weight:500;">ALTEN India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/bhagya-k-161b08268" target="_blank" class="link-name">Bhagya K</a></td><td style="color:var(--muted);">Talent Acquisition Consultant</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/krishna-kanth-sakkari-n-05966a164" target="_blank" class="link-name">Krishna Kanth Sakkari N</a></td><td style="color:var(--muted);">Payroll Officer</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vaishnavi-shetty11" target="_blank" class="link-name">Vaishnavi Shetty</a></td><td style="color:var(--muted);">Employee Relations Specialist</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kalpanarao1a65927" target="_blank" class="link-name">Kalpana Rao</a></td><td style="color:var(--muted);">Chief Human Resources Officer</td><td style="color:var(--teal);font-weight:500;">MosChip</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ravinder-sharma-b9928629" target="_blank" class="link-name">Ravinder Sharma</a></td><td style="color:var(--muted);">Senior Vice President &amp; Plant Head</td><td style="color:var(--teal);font-weight:500;">TKIL Industries</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sachin-jain-5953799" target="_blank" class="link-name">Sachin Jain</a></td><td style="color:var(--muted);">Business Head, Mineral &amp; Aggregates Crushing (MACS) and Battery; Head – Strategy &amp; Transformation</td><td style="color:var(--teal);font-weight:500;">TKIL Industries</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sooryanarayanan" target="_blank" class="link-name">Sooryanarayanan Balasubramanian</a></td><td style="color:var(--muted);">Senior Director of Marketing</td><td style="color:var(--teal);font-weight:500;">MosChip®</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/santoshskulkarni" target="_blank" class="link-name">Santosh Kulkarni</a></td><td style="color:var(--muted);">President – Software Services</td><td style="color:var(--teal);font-weight:500;">Neilsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/manoj-nagesh-47a4aa14" target="_blank" class="link-name">Manoj Nagesh</a></td><td style="color:var(--muted);">Director of Business Development</td><td style="color:var(--teal);font-weight:500;">MosChip®</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shivaramanlvc" target="_blank" class="link-name">Shivaraman LVC</a></td><td style="color:var(--muted);">Vice President – HSE</td><td style="color:var(--teal);font-weight:500;">TKIL Industries</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/anand-relekar-094621a" target="_blank" class="link-name">Anand Relekar</a></td><td style="color:var(--muted);">Vice President – HOD Quality Control &amp; Management Department</td><td style="color:var(--teal);font-weight:500;">TKIL Industries Pvt. Ltd. (formerly thyssenkrupp Industries India Pvt. Ltd.)</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/himanshu-bansal-4520a861/" target="_blank" class="link-name">Himanshu bansal</a></td><td style="color:var(--muted);">VP</td><td style="color:var(--teal);font-weight:500;">JP Morgan Chase</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/abhayghiranikar/" target="_blank" class="link-name">Abhay Ghirnikar</a></td><td style="color:var(--muted);">Director Manufaturing</td><td style="color:var(--teal);font-weight:500;">TKIL Industries</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/animesh-khare-8410979/" target="_blank" class="link-name">Animesh Khare</a></td><td style="color:var(--muted);">Director of Hardware Engineering</td><td style="color:var(--teal);font-weight:500;">NVIDIA</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ramanansanjeevikrishnan" target="_blank" class="link-name">Ramanan Sanjeevi Krishnan</a></td><td style="color:var(--muted);">Director of Hardware Engineering</td><td style="color:var(--teal);font-weight:500;">NVIDIA</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/brishbhan" target="_blank" class="link-name">Brish Bhan Vaidya</a></td><td style="color:var(--muted);">Head: APAC &amp; EMEA Strategic Sourcing and Global Category Leader</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/aratiavhad" target="_blank" class="link-name">Arati Avhad</a></td><td style="color:var(--muted);">Director of Engineering and India Site Lead, Security</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nikhiljasuja" target="_blank" class="link-name">Nikhil Jasuja</a></td><td style="color:var(--muted);">Regional Head – SMB, Startups &amp; Mid Market, Uber for Business</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shahnawazmansoori" target="_blank" class="link-name">Shahnawaz Mansoori</a></td><td style="color:var(--muted);">Head of Industry, India Mid Market</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/arun-londhe-0722222a2" target="_blank" class="link-name">Arun Londhe</a></td><td style="color:var(--muted);">Chairperson</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/george-joseph-47206377" target="_blank" class="link-name">George Joseph</a></td><td style="color:var(--muted);">Global Head of Analytics, Customer Experience – Support Operations</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shlgoyal" target="_blank" class="link-name">Sahil Goyal</a></td><td style="color:var(--muted);">Head Operations – North and West Region</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sumeetkondra" target="_blank" class="link-name">Sumeet Kondra</a></td><td style="color:var(--muted);">Additional Director</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/francis-jose-6a96796" target="_blank" class="link-name">Francis Jose</a></td><td style="color:var(--muted);">Director – BD &amp; Growth Partnerships</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/subramanianananth" target="_blank" class="link-name">Subbu Ananth</a></td><td style="color:var(--muted);">Chief Revenue Officer, APAC for AI, Data &amp; Platform</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kumarankur" target="_blank" class="link-name">Kumar Ankur</a></td><td style="color:var(--muted);">Director - GTM Strategy &amp; Revenue Operations</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/piyushpushkal" target="_blank" class="link-name">Piyush Pushkal</a></td><td style="color:var(--muted);">Director – India Business | Global Accounts | Consumer &amp; Commercial PC, Datacenter | Growth &amp; GTM</td><td style="color:var(--teal);font-weight:500;">Intel</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vishaldhankar" target="_blank" class="link-name">Vishal Dhankar</a></td><td style="color:var(--muted);">Associate Director - Enterprise Sales</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/anujgoswami" target="_blank" class="link-name">Anuj Goswami</a></td><td style="color:var(--muted);">Sales Director - Supply Chain Management</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/subhrajit-basu-bb22aa2" target="_blank" class="link-name">Subhrajit Basu</a></td><td style="color:var(--muted);">Managing Director, India sub-continent &amp; Middle East Region Global Payment Network</td><td style="color:var(--teal);font-weight:500;">Capital One</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vindhya-cs" target="_blank" class="link-name">Vindhya CS</a></td><td style="color:var(--muted);">Marketing Director - SAP SuccessFactors, India</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/lakshnarasimhan" target="_blank" class="link-name">Lakshmi Narasimhan</a></td><td style="color:var(--muted);">Director of Engineering</td><td style="color:var(--teal);font-weight:500;">Capital One</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nitin-sharma-0128a04" target="_blank" class="link-name">Nitin Sharma</a></td><td style="color:var(--muted);">Director - Procurement Solutions</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/abhra-debroy-ba777b8" target="_blank" class="link-name">Abhra Debroy</a></td><td style="color:var(--muted);">Director of Engineering-AI/ML and Software Solutions</td><td style="color:var(--teal);font-weight:500;">SAP Labs India Pvt Ltd</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/deep-kaur-039aab9a" target="_blank" class="link-name">Deep Kaur</a></td><td style="color:var(--muted);">Sales Director HXM</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/jemin-tanna-91a12234" target="_blank" class="link-name">Jemin Tanna</a></td><td style="color:var(--muted);">Chief Business AI Architect - APJ</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rakesh-ned-sy" target="_blank" class="link-name">Rakesh Kumar</a></td><td style="color:var(--muted);">Vice President, Chief Outsourcing Expert - Strategic Outsourcing</td><td style="color:var(--teal);font-weight:500;">SAP Labs India, Bangalore</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sunil-menon-9028a028" target="_blank" class="link-name">Sunil Menon</a></td><td style="color:var(--muted);">Vice President Global People &amp; Culture BP</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><span style="font-weight:500;">Piyush Pushkal</span></td><td style="color:var(--muted);">Director – India Business | Global Accounts | Consumer &amp; Commercial PC, Datacenter | Growth &amp; GTM</td><td style="color:var(--teal);font-weight:500;">Intel</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/col-deepak-anand-b40045a6" target="_blank" class="link-name">Col Deepak Anand</a></td><td style="color:var(--muted);">Managing Partner</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/saurabh-chawla-0709a215" target="_blank" class="link-name">Saurabh Chawla</a></td><td style="color:var(--muted);">Senior Director - HR Tech Strategy &amp; Value Advisory</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><span style="font-weight:500;">Vishal Dhankar</span></td><td style="color:var(--muted);">Associate Director - Enterprise Sales</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/dkini" target="_blank" class="link-name">Deepak Kini</a></td><td style="color:var(--muted);">Regional Sr. Director - Partner Delivery Innovation - APAC Partner Ecosystem Success</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vipin-gandhi-4865824" target="_blank" class="link-name">Vipin Gandhi</a></td><td style="color:var(--muted);">VP &amp; Head, Business Transformation and Architecture</td><td style="color:var(--teal);font-weight:500;">SAP India limited</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vineet-giri-3755601" target="_blank" class="link-name">Vineet Giri</a></td><td style="color:var(--muted);">Global Account Director - Network &amp; Compute Business</td><td style="color:var(--teal);font-weight:500;">Intel Corporation</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shweta-khurana1" target="_blank" class="link-name">Shweta Khurana</a></td><td style="color:var(--muted);">Director Asia Pacific &amp; Japan, Government Partnerships &amp; Initiatives, Global Government Affairs</td><td style="color:var(--teal);font-weight:500;">Intel Corporation</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/jayadevi-kogunde-matt-b0870511" target="_blank" class="link-name">Jayadevi Kogunde Matt</a></td><td style="color:var(--muted);">Director Of Engineering, Client Computing Group</td><td style="color:var(--teal);font-weight:500;">Intel Corporation</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/divya-chandrika-mohan-3769bbb3" target="_blank" class="link-name">Divya Chandrika Mohan</a></td><td style="color:var(--muted);">Head of Product Strategy and Engagements, Private Cloud ERP</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/gopalvankar" target="_blank" class="link-name">Gopalchandra Vankar</a></td><td style="color:var(--muted);">Center of Excellence Director | Digital Core | Solution Engineering | Spend Management</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ajaytikare" target="_blank" class="link-name">Ajay Tikare</a></td><td style="color:var(--muted);">Director - Head of Solution Acceleration - Customer Innovation Services</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/abhishek-dhawan" target="_blank" class="link-name">Abhishek Dhawan</a></td><td style="color:var(--muted);">Director, BTM Value Advisory</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/parmaryoginder" target="_blank" class="link-name">Yoginder Parmar</a></td><td style="color:var(--muted);">Senior Vice President &amp; Chief Operating Officer, SAP Enterprise Cloud Services</td><td style="color:var(--teal);font-weight:500;">SAP Labs India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nithin-maiya-ab40991a" target="_blank" class="link-name">Nithin Maiya</a></td><td style="color:var(--muted);">Senior Director of Engineering</td><td style="color:var(--teal);font-weight:500;">Intel</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sushil-mishra-196a382" target="_blank" class="link-name">Sushil Mishra</a></td><td style="color:var(--muted);">Director Of Engineering</td><td style="color:var(--teal);font-weight:500;">Intel Corporation</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sanilbhandari" target="_blank" class="link-name">Sanil Bhandari</a></td><td style="color:var(--muted);">Director of Product Management</td><td style="color:var(--teal);font-weight:500;">SAP Labs India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/satish-madaiah-46211b15" target="_blank" class="link-name">satish madaiah</a></td><td style="color:var(--muted);">Director</td><td style="color:var(--teal);font-weight:500;">SAP Labs India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kush-batra-86578444" target="_blank" class="link-name">Kush Batra</a></td><td style="color:var(--muted);">Director</td><td style="color:var(--teal);font-weight:500;">Capital One</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/devashish-shivmurthy-78484615" target="_blank" class="link-name">Devashish Shivmurthy</a></td><td style="color:var(--muted);">Director of Engineering</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/jatin-patro-09935445" target="_blank" class="link-name">Jatin Patro</a></td><td style="color:var(--muted);">Engineering Manager</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/srichand" target="_blank" class="link-name">Srichand Manoor</a></td><td style="color:var(--muted);">Director, User Experience Design</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kapil-kumar06" target="_blank" class="link-name">Kapil Kumar</a></td><td style="color:var(--muted);">Engineering Manager</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rajneeshkr" target="_blank" class="link-name">Rajneesh Kumar</a></td><td style="color:var(--muted);">Account Director</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/hemant-shewale-0812a610" target="_blank" class="link-name">Hemant Shewale</a></td><td style="color:var(--muted);">Account Director - Corporate PLT</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pradeep-c-s-a91030146" target="_blank" class="link-name">Pradeep C S</a></td><td style="color:var(--muted);">Engineering Manager</td><td style="color:var(--teal);font-weight:500;">SAP Labs India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kalandi" target="_blank" class="link-name">Kalandi Nayak</a></td><td style="color:var(--muted);">Director - Intelligent Spend Management</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/johnsonashish030895" target="_blank" class="link-name">Ashish Johnson</a></td><td style="color:var(--muted);">MLE</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/amruta-mohanty" target="_blank" class="link-name">amruta mohanty</a></td><td style="color:var(--muted);">Director of Product Management</td><td style="color:var(--teal);font-weight:500;">SAP Labs India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ajay-surya-0a442b192" target="_blank" class="link-name">Ajay Surya</a></td><td style="color:var(--muted);">COE_In_Tech</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/balajikancherlacacmapmp" target="_blank" class="link-name">Balaji Kancherla, CA,CMA, PMP®</a></td><td style="color:var(--muted);">Director of Product Management</td><td style="color:var(--teal);font-weight:500;">SAP</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/nagkraju" target="_blank" class="link-name">Nagaraju Kakarla</a></td><td style="color:var(--muted);">Director of Technology and Architecture - Data Engineering &amp; AI</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ranjanimani" target="_blank" class="link-name">Ranjani Mani</a></td><td style="color:var(--muted);">Director and Country Head, Generative AI, Microsoft Asia</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pallavi-kapoor-88243a6" target="_blank" class="link-name">Pallavi Kapoor</a></td><td style="color:var(--muted);">Sr. Director &amp; Head of HR, India &amp; SA</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kushal-bhat-he-him-his-b7a96320" target="_blank" class="link-name">Kushal Bhat</a></td><td style="color:var(--muted);">Director - People Strategy</td><td style="color:var(--teal);font-weight:500;">Walmart</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/dattarajdeep" target="_blank" class="link-name">Rajdeep Datta</a></td><td style="color:var(--muted);">Director - Trustworthy Shopping Experience International</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/swaminathanaiyer" target="_blank" class="link-name">Swaminathan Aiyer (Swami)</a></td><td style="color:var(--muted);">Director - Head - Data &amp; AI - India and South Asia</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ainesh-mujoo" target="_blank" class="link-name">Ainesh Mujoo</a></td><td style="color:var(--muted);">Head of Display Ads GTM</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rahul-tikku" target="_blank" class="link-name">Rahul Tikku</a></td><td style="color:var(--muted);">Head of Global Operations - Strategy Initiatives &amp; Center Of Excellence</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/devajitroy" target="_blank" class="link-name">Devajit Roy</a></td><td style="color:var(--muted);">Head of India, Growth &amp; Mid-Market - Marketing Solutions</td><td style="color:var(--teal);font-weight:500;">LinkedIn</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/raghavagupta" target="_blank" class="link-name">Raghava Gupta</a></td><td style="color:var(--muted);">Director - CrossBorder Tech, Product and Science</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kapilchawla" target="_blank" class="link-name">Kapil Chawla</a></td><td style="color:var(--muted);">Head of Startups | VC Partnerships | Digital Natives</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ohrivishal" target="_blank" class="link-name">Vishal Ohri</a></td><td style="color:var(--muted);">Senior Director – Strategic Partnerships, Asia (Enterprise Cloud &amp; AI)</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/aman-deep-lohan-a05bb93" target="_blank" class="link-name">Aman Deep Lohan</a></td><td style="color:var(--muted);">Director</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rakeshjaitly" target="_blank" class="link-name">Rakesh Jaitly</a></td><td style="color:var(--muted);">Head - Business Applications (SMC India and South Asia)</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/tracyaustina" target="_blank" class="link-name">Tracy Austina Zacreas</a></td><td style="color:var(--muted);">Vice President - L&amp;D (Technical, Professional and Leadership Development) and RMG</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/gautamagg" target="_blank" class="link-name">Gautam Aggarwal</a></td><td style="color:var(--muted);">President, India &amp; South Asia</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/prasadpatole" target="_blank" class="link-name">Prasad Patole</a></td><td style="color:var(--muted);">Associate Director of Sales - GCC</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/avinashkarn" target="_blank" class="link-name">Avinash Karn</a></td><td style="color:var(--muted);">Senior Director AI Strategy</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/prabhakar-atla-03045b1" target="_blank" class="link-name">Prabhakar Atla</a></td><td style="color:var(--muted);">President</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/amit-murarka-1770629" target="_blank" class="link-name">Amit Murarka</a></td><td style="color:var(--muted);">Sr Director, Alliances and Partnerships</td><td style="color:var(--teal);font-weight:500;">Databricks</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/angad-reyar" target="_blank" class="link-name">Angad Reyar</a></td><td style="color:var(--muted);">Head of Global Inventory Optimization</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/indranichoudhury" target="_blank" class="link-name">Indrani Choudhury</a></td><td style="color:var(--muted);">Director AI Strategy and Programs (Industry Solutions Delivery)</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kapil-hathi-3747006" target="_blank" class="link-name">Kapil Hathi</a></td><td style="color:var(--muted);">CFO - Amazon.in</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sacsharma" target="_blank" class="link-name">Sachin Sharma</a></td><td style="color:var(--muted);">Director, Marketing Solutions</td><td style="color:var(--teal);font-weight:500;">LinkedIn</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sandeep-agarwal-9672956" target="_blank" class="link-name">Sandeep Agarwal</a></td><td style="color:var(--muted);">Director, CTO - Security, India and South Asia</td><td style="color:var(--teal);font-weight:500;">Cisco</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sethankur" target="_blank" class="link-name">Ankur Seth</a></td><td style="color:var(--muted);">Director of Business Development</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sunny-bhalla-11407212" target="_blank" class="link-name">Sunny Bhalla</a></td><td style="color:var(--muted);">Director - Data Strategy and Insights</td><td style="color:var(--teal);font-weight:500;">MongoDB</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/dekkala-arun-kumar" target="_blank" class="link-name">Arun Dekkala</a></td><td style="color:var(--muted);">Director of Product Management</td><td style="color:var(--teal);font-weight:500;">Cisco</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rajeev-gangal-0aa1822" target="_blank" class="link-name">Rajeev Gangal</a></td><td style="color:var(--muted);">Senior Vice President, R&amp;D Engineering</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/satish-kumar-3707a78" target="_blank" class="link-name">Satish Kumar</a></td><td style="color:var(--muted);">Director &amp; India Head- LinkedIn Sales Solutions</td><td style="color:var(--teal);font-weight:500;">LinkedIn</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kamalkanth" target="_blank" class="link-name">Kamalkanth Tummala</a></td><td style="color:var(--muted);">Vice President &amp; Country Manager</td><td style="color:var(--teal);font-weight:500;">Databricks</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/siddharthverma" target="_blank" class="link-name">Siddharth Verma</a></td><td style="color:var(--muted);">Sr Director, AI Products — Global Sales</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/anuragksrivastava" target="_blank" class="link-name">Anurag Srivastava</a></td><td style="color:var(--muted);">Head- Skills and Partnership, Digital Impact Office, Asia Pacific</td><td style="color:var(--teal);font-weight:500;">Cisco</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rishi-malik-msft" target="_blank" class="link-name">Rishi Malik</a></td><td style="color:var(--muted);">Director Sales - Digital Natives</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kunal-pungaliya-23234a28" target="_blank" class="link-name">Kunal Pungaliya</a></td><td style="color:var(--muted);">Head of Enterprise Customer Business- LinkedIn for Sales, India</td><td style="color:var(--teal);font-weight:500;">LinkedIn</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/anupambhattacharjee" target="_blank" class="link-name">Anupam Bhattacharjee</a></td><td style="color:var(--muted);">Sr Vice President - BU Head</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/madhushree-roy-0108" target="_blank" class="link-name">Madhushree Roy</a></td><td style="color:var(--muted);">Director - Global Product Management - Advanced Analytical Solutions</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ruchika-kohli-kashyap-2281379" target="_blank" class="link-name">Ruchika Kohli Kashyap</a></td><td style="color:var(--muted);">Head of ReCommerce (Program &amp; Product)</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/senthilvellaichamy" target="_blank" class="link-name">Senthil Vellaichamy</a></td><td style="color:var(--muted);">Senior Director of Engineering</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ruchikmehta" target="_blank" class="link-name">Ruchik Mehta</a></td><td style="color:var(--muted);">Director, Data Strategy</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/tanujabapat" target="_blank" class="link-name">Tanuja Ganu</a></td><td style="color:var(--muted);">Director of Research Engineering</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/saumya-r-908889135" target="_blank" class="link-name">Saumya R</a></td><td style="color:var(--muted);">Director Of Engineering</td><td style="color:var(--teal);font-weight:500;">Visa</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vashimagoel" target="_blank" class="link-name">Vashima Goel</a></td><td style="color:var(--muted);">Head Seller Success: Business operations &amp; Strategic Initiative program</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rcnprakash" target="_blank" class="link-name">Prakash Narayanan</a></td><td style="color:var(--muted);">Delivery Head - Data, AI &amp; Platforms - Aero &amp; Rail</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/yashita-mukhi-a34b9a8" target="_blank" class="link-name">Yashita Mukhi</a></td><td style="color:var(--muted);">IN Head of Apps &amp; International Growth Team</td><td style="color:var(--teal);font-weight:500;">Google</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vivek-sinha-3b45832" target="_blank" class="link-name">Vivek Sinha</a></td><td style="color:var(--muted);">Senior Vice President</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/arun-prakash-16b96864" target="_blank" class="link-name">Arun Prakash</a></td><td style="color:var(--muted);">Regional Security Director - Asia</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/aditya-unnikrishnan-031927150" target="_blank" class="link-name">Aditya Unnikrishnan</a></td><td style="color:var(--muted);">Account Director - Large Enterprise</td><td style="color:var(--teal);font-weight:500;">LinkedIn</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rinku-tekchandani" target="_blank" class="link-name">Rinku Tekchandani</a></td><td style="color:var(--muted);">Director, Site Reliability Engineering</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vijaykumar-gujjar-9118812b" target="_blank" class="link-name">Vijaykumar Gujjar</a></td><td style="color:var(--muted);">Head of Resource Management</td><td style="color:var(--teal);font-weight:500;">Neilsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shruthi-bojamma" target="_blank" class="link-name">Shruthi Bojamma B</a></td><td style="color:var(--muted);">Head of Marketing Communications</td><td style="color:var(--teal);font-weight:500;">ALTEN India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ae24" target="_blank" class="link-name">Amarnath Ede</a></td><td style="color:var(--muted);">Head of Practice | Software &amp; AI</td><td style="color:var(--teal);font-weight:500;">L&amp;T Technology Services</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ruchikohli-rk" target="_blank" class="link-name">Ruchi Kohli</a></td><td style="color:var(--muted);">Country Head, Mid-Market Business, India</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/harsha-sud-b5453a2a" target="_blank" class="link-name">Harsha Sud</a></td><td style="color:var(--muted);">Head of Industry, eCommerce &amp; retail</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/akanksha-jain-10816186" target="_blank" class="link-name">Akanksha Jain</a></td><td style="color:var(--muted);">Creative Director (APAC), CreativeX</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/manoharhotchandani" target="_blank" class="link-name">Manohar Hotchandani</a></td><td style="color:var(--muted);">Director Of Business Development, AI &amp; RL Partnerships</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/paramsawlani" target="_blank" class="link-name">Param Sawlani</a></td><td style="color:var(--muted);">Head of Compliance &amp; Risk Oversight - WhatsApp Payments, India</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/oicmetaalloys" target="_blank" class="link-name">Romit Ostwal</a></td><td style="color:var(--muted);">Owner</td><td style="color:var(--teal);font-weight:500;">OIC METALS</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/asima-singh-983688217" target="_blank" class="link-name">Asima Singh</a></td><td style="color:var(--muted);">Senior Vice President Product Management</td><td style="color:var(--teal);font-weight:500;">Meta</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/moiz-lakdawalla-95812113" target="_blank" class="link-name">Moiz Lakdawalla</a></td><td style="color:var(--muted);">Senior Director, Business Development</td><td style="color:var(--teal);font-weight:500;">Visa</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pritigandhi" target="_blank" class="link-name">Priti Gandhi</a></td><td style="color:var(--muted);">Head of Communications</td><td style="color:var(--teal);font-weight:500;">TKIL Industries (Formerly known as thyssenkrupp Industries India)</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/srini-kulkarni" target="_blank" class="link-name">Srinivas Kulkarni</a></td><td style="color:var(--muted);">Director of Software Engineering / Principal Software Engineering Manager</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/praveengandhi-tr-boardcomp-genai-gphr" target="_blank" class="link-name">Praveen Gandhi, GPHR, SHRM-SCP</a></td><td style="color:var(--muted);">Global Head &amp; VP - Total Rewards, Performance, Global Mobility &amp; Global HR Operations</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kamakshya" target="_blank" class="link-name">Kamakshya Prusti</a></td><td style="color:var(--muted);">Vice President - Growth</td><td style="color:var(--teal);font-weight:500;">Tata Technologies</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pravesh-jha" target="_blank" class="link-name">Pravesh Jha</a></td><td style="color:var(--muted);">Director of Engineering</td><td style="color:var(--teal);font-weight:500;">Visa</td></tr>
+<tr><td><span style="font-weight:500;">Shadab Anwer</span></td><td style="color:var(--muted);">Director operations</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/avijaysrinivas" target="_blank" class="link-name">Vijay Srinivas Agneeswaran, Ph.D</a></td><td style="color:var(--muted);">Senior Director of AI R&amp;D</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/anand-kalidoss-767a604" target="_blank" class="link-name">Anand Kalidoss</a></td><td style="color:var(--muted);">Director - Azure App Innovation</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/anil-kumar-emmadi-9429525" target="_blank" class="link-name">Anil Kumar Emmadi</a></td><td style="color:var(--muted);">Consulting Practice Director- Microsoft Azure Cloud and Artificial Intelligence Domain- EMEA</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sapna-grover-9170032" target="_blank" class="link-name">Sapna Grover</a></td><td style="color:var(--muted);">Sr Director - Cloud, Data &amp; AI COE</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/tejasvikumar" target="_blank" class="link-name">Tejasvi Kumar</a></td><td style="color:var(--muted);">Director, Strategy &amp; Business Development</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/hari-krishnan-t-m-3bb2256" target="_blank" class="link-name">Hari Krishnan T.M</a></td><td style="color:var(--muted);">Director - Cloud Solution Architects</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/diptijaiswal" target="_blank" class="link-name">Dipti Jaiswal</a></td><td style="color:var(--muted);">Partner Director of Engineering</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/smriti-khannaa" target="_blank" class="link-name">Smriti Khanna</a></td><td style="color:var(--muted);">Senior Human Resources Business Partner</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/jayawant-tewari" target="_blank" class="link-name">Jayawant Tewari</a></td><td style="color:var(--muted);">Partner UX Director, SXC@studio+91</td><td style="color:var(--teal);font-weight:500;">Microsoft</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/divya-sachdev05" target="_blank" class="link-name">Divya Sachdev</a></td><td style="color:var(--muted);">Head of Strategy - India &amp; South Asia</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/chandra-nethi" target="_blank" class="link-name">Chandra Shekar Neti</a></td><td style="color:var(--muted);">Director of Engineering</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/soumya-basu-054812a" target="_blank" class="link-name">Soumya Basu</a></td><td style="color:var(--muted);">Head of Business Development - Payments, Asia Pacific, Middle East &amp; Africa</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kshitiz-kohli-1842b515" target="_blank" class="link-name">Kshitiz Kohli</a></td><td style="color:var(--muted);">Regional Head WFM APAC</td><td style="color:var(--teal);font-weight:500;">Uber</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/saket-sameer-0b57482" target="_blank" class="link-name">Saket Sameer</a></td><td style="color:var(--muted);">Head of Strategy &amp; Data Science (Collection) - Merchant Lending</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ghoshsudipto" target="_blank" class="link-name">Sudipto Ghosh</a></td><td style="color:var(--muted);">Director Software Engineering</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/shekarramachandran" target="_blank" class="link-name">Shekar Ramachandran</a></td><td style="color:var(--muted);">Director of Engineering</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/mayank-malhotra17" target="_blank" class="link-name">Mayank Malhotra (He/Him)</a></td><td style="color:var(--muted);">Director - AI/ ML strategy</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pradeep-kumars" target="_blank" class="link-name">Pradeep Kumar</a></td><td style="color:var(--muted);">Head of Strategic Initiatives</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ankhandelwal15" target="_blank" class="link-name">Anshul Khandelwal</a></td><td style="color:var(--muted);">Director, Fraud Risk Management</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/prasannaannamalai" target="_blank" class="link-name">Prasanna Annamalai</a></td><td style="color:var(--muted);">Senior Director Of Engineering</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/areefhussain" target="_blank" class="link-name">Areef Hussain Shaik</a></td><td style="color:var(--muted);">Director of Engineering</td><td style="color:var(--teal);font-weight:500;">PayPal</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/swadesh-verma-68b74818" target="_blank" class="link-name">Swadesh VERMA</a></td><td style="color:var(--muted);">Director AI Software</td><td style="color:var(--teal);font-weight:500;">Intel Corporation</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sunil-kumar-97a5151" target="_blank" class="link-name">Sunil Kumar</a></td><td style="color:var(--muted);">Director of Engg</td><td style="color:var(--teal);font-weight:500;">Intel</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/johnny-christo-96865465" target="_blank" class="link-name">Johnny Christo</a></td><td style="color:var(--muted);">Director, Global Utilities &amp; Infrastructure</td><td style="color:var(--teal);font-weight:500;">Intel Corporation</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kishoreramisetty" target="_blank" class="link-name">Kishore Ramisetty</a></td><td style="color:var(--muted);">Vice President and General Manager, Edge Computing Group, India</td><td style="color:var(--teal);font-weight:500;">Intel Corporation</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/hareesh-shankrappa-4424b2a" target="_blank" class="link-name">Hareesh Shankrappa</a></td><td style="color:var(--muted);">Director - NESG-HEC</td><td style="color:var(--teal);font-weight:500;">Intel Corporation</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/kapilsjain" target="_blank" class="link-name">Kapil Jain</a></td><td style="color:var(--muted);">Director of Software Engineering</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/saurabh-khankhoje-64800029" target="_blank" class="link-name">Saurabh Khankhoje</a></td><td style="color:var(--muted);">Director Software Engineering</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/saugandh-datta-9b124434" target="_blank" class="link-name">Saugandh Datta</a></td><td style="color:var(--muted);">Director</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rahul-soni-66b7a0b" target="_blank" class="link-name">Rahul Soni</a></td><td style="color:var(--muted);">Director - Business Development</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/prabeerghosh" target="_blank" class="link-name">Prabir Ghosh</a></td><td style="color:var(--muted);">Director, Product Management - Payment Performance Acceleration</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sinhaneha" target="_blank" class="link-name">Neha Sinha (MSP®,PRINCE2®, PSM, ICP-ACC, ITIL)</a></td><td style="color:var(--muted);">Director, Technical Program Management</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pandeysaurabha" target="_blank" class="link-name">Saurabha Pandey</a></td><td style="color:var(--muted);">Director, Software Engineering</td><td style="color:var(--teal);font-weight:500;">Mastercard</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/angad-reyar" target="_blank" class="link-name">Angad Reyar</a></td><td style="color:var(--muted);">Head of Global Inventory Optimization</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/jerusha-ratnam" target="_blank" class="link-name">Jerusha Ratnam</a></td><td style="color:var(--muted);">Head of Copy Content &amp; Beauty</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><span style="font-weight:500;">Ainesh Mujoo</span></td><td style="color:var(--muted);">Head of Display Ads GTM</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/durga-prasad-k-2b433323" target="_blank" class="link-name">Durga Prasad K</a></td><td style="color:var(--muted);">Head of Reverse Logistics</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><span style="font-weight:500;">Rajdeep Datta</span></td><td style="color:var(--muted);">Director - Trustworthy Shopping Experience International</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><span style="font-weight:500;">Raghava Gupta</span></td><td style="color:var(--muted);">Director - CrossBorder Tech, Product and Science</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/minig" target="_blank" class="link-name">Mini Manakame</a></td><td style="color:var(--muted);">Director &amp; Head of Advertising Products, India &amp; Emerging Markets, Amazon</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/dmrugan" target="_blank" class="link-name">Durai Murugan Veerasamy</a></td><td style="color:var(--muted);">Head of APAC Creative Operations</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><span style="font-weight:500;">Rahul Tikku</span></td><td style="color:var(--muted);">Head of Global Operations - Strategy Initiatives &amp; Center Of Excellence</td><td style="color:var(--teal);font-weight:500;">Amazon</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/vivekjaykrishnan" target="_blank" class="link-name">Vivek Jaykrishnan</a></td><td style="color:var(--muted);">Vice President : Delivery Center Operations</td><td style="color:var(--teal);font-weight:500;">ALTEN India</td></tr>
+<tr><td><span style="font-weight:500;">Shruthi Bojamma B</span></td><td style="color:var(--muted);">Head of Marketing Communications</td><td style="color:var(--teal);font-weight:500;">ALTEN India</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/sachin-jain-5953799" target="_blank" class="link-name">Sachin Jain</a></td><td style="color:var(--muted);">Business Head, Mineral and Aggregates Crushing (MACS) and Battery &amp; Head (Strategy, Transformation)</td><td style="color:var(--teal);font-weight:500;">TKIL Industries (Formerly known as thyssenkrupp Industries India)</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/ravinder-sharma-b9928629" target="_blank" class="link-name">Ravinder Sharma</a></td><td style="color:var(--muted);">Senior Vice President &amp; Plant Head</td><td style="color:var(--teal);font-weight:500;">TKIL Industries</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/pritigandhi" target="_blank" class="link-name">Priti Gandhi</a></td><td style="color:var(--muted);">Head of Communications</td><td style="color:var(--teal);font-weight:500;">TKIL Industries (Formerly known as thyssenkrupp Industries India)</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/prasaddange" target="_blank" class="link-name">PrasadD Dange</a></td><td style="color:var(--muted);">Head - Business Operations and Strategy (Mining)</td><td style="color:var(--teal);font-weight:500;">TKIL Industries (Formerly known as thyssenkrupp Industries India)</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/abhayghiranikar" target="_blank" class="link-name">Abhay Ghirnikar</a></td><td style="color:var(--muted);">Director of Manufacturing</td><td style="color:var(--teal);font-weight:500;">TKIL Industries (Formerly known as thyssenkrupp Industries India)</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/arunkumar-gobbur-a8878546" target="_blank" class="link-name">Arunkumar Gobbur</a></td><td style="color:var(--muted);">Associate Vice President</td><td style="color:var(--teal);font-weight:500;">TKIL Industries (Formerly known as thyssenkrupp Industries India)</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/gaurav-srivastava-222b4515" target="_blank" class="link-name">GAURAV SRIVASTAVA</a></td><td style="color:var(--muted);">Chief Financial Officer</td><td style="color:var(--teal);font-weight:500;">TKIL Industries (Formerly known as thyssenkrupp Industries India)</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/abhijit-das-153350a2" target="_blank" class="link-name">Abhijit Das</a></td><td style="color:var(--muted);">Vice President</td><td style="color:var(--teal);font-weight:500;">TKIL Industries (Formerly known as thyssenkrupp Industries India)</td></tr>
+<tr><td><a href="https://www.linkedin.com/in/rajendra-kumar-patro-3541601a" target="_blank" class="link-name">Rajendra Kumar Patro</a></td><td style="color:var(--muted);">Senior Vice President and Global Delivery Head, Aerospace &amp; Defence</td><td style="color:var(--teal);font-weight:500;">Cyient</td></tr>
+</tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+
+<!-- 03 OUTCOMES -->
+<section id="outcomes"><div class="wrap">
+  <div class="section-head"><div><div class="section-num">03 &mdash; Inbound Outcomes</div><h2>Opportunities Received</h2></div></div>
+  <p class="section-intro">Inbound opportunities that arrived through the LinkedIn programme in Month 5.</p>
+  <div class="outcome-card">
+  <div class="outcome-type">Paid expert consultation – Advertising Software Insights</div>
+  <div class="outcome-name">Harman Brar</div>
+  <div class="outcome-role">Private Equity &amp; Consulting; Data Science; Machine Learning (profile headline)</div>
+  <div class="outcome-co">Not specified in screenshot</div>
+  <div class="outcome-detail">Reached out to Althaf about a paid 30–60 minute consultation via phone or Zoom for a client seeking insights from people with experience in advertising software. Topics include the end-to-end customer journey (lead to renewal), handover points between teams, sales versus post-sales coverage, and customer types served (e.g., agency holding companies, large brands, independent agencies, publishers). Compensation is offered; the remainder of the message is not visible.</div>
+</div>
+
+</div></section>
+
+
+</div><!-- /.main -->
+
+<script>
+
+document.addEventListener('DOMContentLoaded',function(){
+  // scroll-spy
+  var links=[].slice.call(document.querySelectorAll('.rail-nav a'));
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        var id=e.target.id;
+        links.forEach(function(a){a.classList.toggle('active',a.getAttribute('href')==='#'+id);});
+      }
+    });
+  },{threshold:.25});
+  document.querySelectorAll('section[id],div[id="overview"]').forEach(function(s){io.observe(s);});
+});
+
+function showEngTab(key){
+  document.querySelectorAll('.eng-tab').forEach(function(b){b.classList.remove('active');});
+  document.querySelectorAll('.eng-panel').forEach(function(p){p.style.display='none';});
+  document.getElementById('etab-'+key).classList.add('active');
+  document.getElementById('epanel-'+key).style.display='';
+}
+
+</script>
+</body>
+</html>
